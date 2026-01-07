@@ -4,5 +4,4 @@ DATA_URL = "https://github.com/rxn4chemistry/rxn_yields/raw/master/data/Buchwald
 
 df = pd.read_excel(DATA_URL)
 
-print(df.head())
-print(f"Total experiments: {len(df)}")
+print(df['Ligand'].unique())
