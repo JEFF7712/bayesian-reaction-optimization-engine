@@ -9,6 +9,7 @@ pkgs.mkShell {
       openpyxl
       scikit-learn
       matplotlib
+      rdkit
     ]))
   ];
 }
