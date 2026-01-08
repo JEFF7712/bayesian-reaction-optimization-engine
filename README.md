@@ -10,5 +10,5 @@ Uses machine learning (random forest) to predict reaction yields and Bayesian Op
 **Data:** Doyle-Buchwald High-Throughput Experimentation Dataset
 
 ## Performance
-RMSE: 6.65% (Average prediction error)
-R² Score: 0.943 (Correlation)
+- RMSE: 6.65% (Average prediction error)
+- R² Score: 0.943 (Correlation)
