@@ -58,6 +58,8 @@ def plot_data(y_test, y_pred_mean):
     plt.grid()
     plt.show()
 
+plot_data(y_test, y_pred_mean)
+
 def acquisition_function(mean, std, kappa=2.0):
     return mean + (kappa * std)
 
